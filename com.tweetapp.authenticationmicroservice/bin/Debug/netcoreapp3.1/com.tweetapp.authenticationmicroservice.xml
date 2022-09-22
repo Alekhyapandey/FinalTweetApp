@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>com.tweetapp.authenticationmicroservice</name>
+    </assembly>
+    <members>
+        <member name="M:com.tweetapp.authenticationmicroservice.Controllers.AccountController.Login(com.tweetapp.authenticationmicroservice.Dtos.Account)">
+             <summary>
+             Post method for Login
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST
+                 {
+                    "username": "username",
+                    "password": "password"
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:com.tweetapp.authenticationmicroservice.Controllers.AccountController.Register(com.tweetapp.authenticationmicroservice.Dtos.AccountDto)">
+             <summary>
+             Post method to register
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST
+                 {
+                    "username": "username",
+                    "password": "password",
+                    "email": "email@email.com",
+                    "firstName": "Firstname",
+                    "lastName": "Lastname",
+                    "contactNumber": 7826541237
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:com.tweetapp.authenticationmicroservice.Controllers.AccountController.UpdatePassword(com.tweetapp.authenticationmicroservice.Dtos.Account,System.String)">
+             <summary>
+             Put method to change password
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST
+                 {
+                    "username": "username from url",
+                    "password": "password"
+                 }
+            
+             </remarks>
+        </member>
+    </members>
+</doc>

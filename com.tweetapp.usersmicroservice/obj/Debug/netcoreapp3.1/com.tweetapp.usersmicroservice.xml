@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>com.tweetapp.usersmicroservice</name>
+    </assembly>
+    <members>
+        <member name="M:com.tweetapp.usersmicroservice.Controllers.UserController.GetAllUser">
+            <summary>
+            Get list of all users
+            </summary>
+        </member>
+        <member name="M:com.tweetapp.usersmicroservice.Controllers.UserController.SearchUsersByName(System.String)">
+            <summary>
+            Get list of users by name
+            </summary>
+        </member>
+    </members>
+</doc>

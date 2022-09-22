@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>com.tweetapp.tweetmicroservice</name>
+    </assembly>
+    <members>
+        <member name="M:com.tweetapp.tweetmicroservice.Controllers.TweetController.GetAllTweets">
+            <summary>
+            Get list of all tweets
+            </summary>
+        </member>
+        <member name="M:com.tweetapp.tweetmicroservice.Controllers.TweetController.GetUserTweets(System.String)">
+            <summary>
+            Get list of all tweets of a user by username
+            </summary>
+        </member>
+        <member name="M:com.tweetapp.tweetmicroservice.Controllers.TweetController.AddTweet(com.tweetapp.tweetmicroservice.Model.Tweet,System.String)">
+             <summary>
+             Post method to add a tweet
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST
+                 {
+                    "tweetText": "any tweet text",
+                    "creationTime": "2022-07-30T10:39:08.499Z",
+                    "userName": "username",
+                    "tag": "any optional tag"
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:com.tweetapp.tweetmicroservice.Controllers.TweetController.UpdateTweet(System.String,com.tweetapp.tweetmicroservice.Model.Tweet)">
+             <summary>
+             Put method to update a tweet
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PUT
+                 {
+                    "tweetText": "any updated tweet text",
+                    "creationTime": "2022-07-30T10:39:08.499Z",
+                    "userName": "username",
+                    "tag": "any updated optional tag"
+                 }
+            
+             </remarks>
+        </member>
+        <member name="M:com.tweetapp.tweetmicroservice.Controllers.TweetController.DeleteTweet(System.String)">
+            <summary>
+            Delete method to delete a tweet
+            </summary>
+        </member>
+        <member name="M:com.tweetapp.tweetmicroservice.Controllers.TweetController.LikeTweet(System.String,System.String)">
+            <summary>
+            Put method to add or remove like to a tweet
+            </summary>
+        </member>
+        <member name="M:com.tweetapp.tweetmicroservice.Controllers.TweetController.ReplyTweet(System.String,System.String,com.tweetapp.tweetmicroservice.Model.TweetReply)">
+             <summary>
+             Post method to add reply to a tweet
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PUT
+                 {
+                    "replyText": "any reply text",
+                    "creationTime": "2022-07-30T11:00:16.375Z",
+                    "tweetId": "tweetid from url",
+                    "userName": "username from url",
+                    "tag": "any optional tag"
+                 }
+            
+             </remarks>
+        </member>
+    </members>
+</doc>

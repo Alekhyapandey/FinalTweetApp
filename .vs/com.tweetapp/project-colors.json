@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "f8713a33-b76b-4e36-a0f9-5ee79f3c0f64": {
+      "ProjectGuid": "f8713a33-b76b-4e36-a0f9-5ee79f3c0f64",
+      "DisplayName": "AuthUnitTest",
+      "ColorIndex": 0
+    },
+    "7dbcfef0-9c5c-4184-92cd-3cd435c6ced8": {
+      "ProjectGuid": "7dbcfef0-9c5c-4184-92cd-3cd435c6ced8",
+      "DisplayName": "TweetUnitTest",
+      "ColorIndex": 1
+    },
+    "77fb5a35-2802-4078-9b0d-0e60d0d90c7e": {
+      "ProjectGuid": "77fb5a35-2802-4078-9b0d-0e60d0d90c7e",
+      "DisplayName": "com.tweetapp.usersmicroservice",
+      "ColorIndex": 2
+    },
+    "4bcb46e0-ae23-4a9d-886c-afe9a0f44488": {
+      "ProjectGuid": "4bcb46e0-ae23-4a9d-886c-afe9a0f44488",
+      "DisplayName": "com.tweetapp.authenticationmicroservice",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}
